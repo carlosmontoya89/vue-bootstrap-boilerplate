@@ -1,10 +1,14 @@
-<template lang="pug">
-#Home
-  header
-    img(src='https://myhappyagency.com/blog/wp-content/uploads/2019/10/vue-bootstrap-vuex-eslint.png')
-    h1 {{ pjson.name }}
-    p {{ pjson.description }}
-    a(href="https://github.com/guillaumeduhan/vue-bootstrap-boilerplate", target="_blank") Github
+<template lang="html">
+  <div id="Home">
+    <header>
+      <img src="https://myhappyagency.com/blog/wp-content/uploads/2019/10/vue-bootstrap-vuex-eslint.png">
+      <h1>{{ pjson.name }}</h1>
+      <p>{{ pjson.description }}</p><a
+        href="https://github.com/guillaumeduhan/vue-bootstrap-boilerplate"
+        target="_blank"
+      >Github</a>
+    </header>
+  </div>
 </template>
 
 <script>

@@ -1,6 +1,7 @@
-<template lang="pug">
-  #app
-    router-view
+<template lang="html">
+  <div id="app">
+    <router-view />
+  </div>
 </template>
 
 <style lang="scss">
