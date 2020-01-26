@@ -1,6 +1,6 @@
 <template lang="html">
   <div id="Home">
-    <h1>Hello World</h1>
+    <h1>hello world</h1>
   </div>
 </template>
 
@@ -11,9 +11,5 @@ export default {
 </script>
 
 <style lang="scss">
-#Home {
-  img {
-    max-width: 400px;
-  }
-}
+#Home {}
 </style>
