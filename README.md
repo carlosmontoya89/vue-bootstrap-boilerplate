@@ -2,11 +2,12 @@
 
 ![logo](https://myhappyagency.com/blog/wp-content/uploads/2020/01/vbs.png)
 
-- Vue-Cli 3
+- Vue 2
+- Vue-CLI 3
 - Bootstrap 4
 - Vuex
 - Vue-Router
-- HTML/Pug
+- HTML/Pug (switch branch)
 - Sass/Scss
 - ESLint
 - Axios

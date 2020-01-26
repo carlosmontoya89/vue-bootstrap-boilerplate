@@ -11,5 +11,10 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2C3E50;
+  min-height: 100vh;
+
+  .container {
+    min-height: 100vh;
+  }
 }
 </style>
