@@ -1,10 +1,9 @@
-# Vue Bootstrap Boilerplate 2020
+# Vue Bootstrap Boilerplate
 
-![logo](https://myhappyagency.com/blog/wp-content/uploads/2020/01/vbs.png)
+![logo](https://repository-images.githubusercontent.com/217154004/312a6600-802c-11ea-9de1-d539825cc1f1)
 
-- Vue 2
 - Vue-CLI 3
-- Bootstrap 4
+- Bootstrap
 - Vuex
 - Vue-Router
 - HTML/Pug (switch branch)
@@ -17,7 +16,7 @@
 Clone project and enter in folder:
 
 ```
-cd vue-bootstrap-boilerplate
+cd vue-Bootstrap-boilerplate
 ```
 
 Run npm install:
@@ -25,6 +24,7 @@ Run npm install:
 ```
 npm i
 ```
+
 Enjoy:
 
 ```
@@ -33,11 +33,10 @@ npm run serve
 
 ## Built With
 
-* [Vue CLI](https://cli.vuejs.org/) - Standard Tooling for Vue.js Development
-* [Bootstrap-vue](https://bootstrap-vue.js.org/) - Bootstrap v4 is the world's most popular framework for building responsive, mobile-first sites.
-* [Vuex](https://vuex.vuejs.org/) - Vuex is a state management pattern + library for Vue.js applications.
-* [Vue-Router](https://router.vuejs.org/) - Vue Router is the official router for Vue.js.
-* [Pug](https://pugjs.org/api/getting-started.html) - Pug.js is a HTML templating engine.
+- [Vue CLI](https://cli.vuejs.org/) - Standard Tooling for Vue.js Development
+- [Bootstrap](https://getbootstrap.com/) - Build responsive, mobile-first projects on the web with the world’s most popular front-end component library.
+- [Vuex](https://vuex.vuejs.org/) - Vuex is a state management pattern + library for Vue.js applications.
+- [Vue-Router](https://router.vuejs.org/) - Vue Router is the official router for Vue.js.
 
 ## Versioning
 
@@ -45,9 +44,7 @@ We use [SemVer](http://semver.org/) for versioning.
 
 ## Authors ✨
 
-* **guillaumeduhan** - *Initial work* - [Github](https://github.com/guillaumeduhan)
-* **kaangokdemir** - *Contributor* - [Github](https://github.com/kaangokdemir)
-* **malinsdd** - *Contributor* - [Github](https://github.com/malinsdd)
+- **guillaumeduhan** - _Initial work_ - [Github](https://github.com/guillaumeduhan)
 
 ## License
 
