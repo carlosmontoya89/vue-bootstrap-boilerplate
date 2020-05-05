@@ -1,11 +1,12 @@
 {
   "name": "Vue-Bootstrap-Boilerplate",
-  "version": "1.4.2",
+  "version": "1.6.0",
   "author": "Guillaume Duhan",
   "contributors": [
     "kaangokdemir",
     "malinsdd"
   ],
+  "main": "server.js",
   "description": "Vue-Cli-3, Vuex, Vue-Router, Bootstrap 4, Babel, ESLint, Axios, SCSS and Pug/HTML boilerplate.",
   "private": true,
   "scripts": {
@@ -36,12 +37,7 @@
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-vue": "^5.2.3",
-    "pug": "^2.0.4",
-    "pug-plain-loader": "^1.0.0",
     "sass-loader": "^8.0.0",
-    "stylelint": "^11.1.1",
-    "stylelint-config-standard": "^19.0.0",
-    "stylelint-processor-html": "^1.0.0",
     "vue-template-compiler": "^2.6.10"
   },
   "postcss": {
