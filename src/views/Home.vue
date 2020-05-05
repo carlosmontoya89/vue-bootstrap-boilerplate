@@ -1,38 +1,15 @@
 <template lang="html">
   <div id="Home">
-    <header>
-      <img src="https://myhappyagency.com/blog/wp-content/uploads/2019/10/vue-bootstrap-vuex-eslint.png">
-      <h1>{{ pjson.name }}</h1>
-      <p>{{ pjson.description }}</p><a
-        href="https://github.com/guillaumeduhan/vue-bootstrap-boilerplate"
-        target="_blank"
-      >Github</a>
-    </header>
+    <h1>hello world</h1>
   </div>
 </template>
 
 <script>
-import pjson from '../../package.json'
-
 export default {
-  name: 'Home',
-  data() {
-    return {
-      pjson,
-    }
-  },
+  name: 'Home'
 }
 </script>
 
 <style lang="scss">
-#Home {
-  .avatar {
-    img {
-      border-radius: 75px;
-      max-width: 75px;
-      margin-bottom: 15px;
-      background: #C32424;
-    }
-  }
-}
+#Home {}
 </style>
