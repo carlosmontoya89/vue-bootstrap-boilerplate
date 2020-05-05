@@ -1,19 +1,19 @@
-import Vue from 'vue'
-import BootstrapVue from 'bootstrap-vue'
-import App from './App.vue'
-import router from './router'
-import store from './store'
+import Vue from "vue";
+import BootstrapVue from "bootstrap-vue";
+import App from "./App.vue";
+import router from "./router";
+import store from "./store";
 
-import MyPlugin from './plugins/my-plugin.js'
+import MyPlugin from "./plugins/my-plugin.js";
 
-Vue.use(BootstrapVue)
-Vue.use(MyPlugin)
+Vue.use(BootstrapVue);
+Vue.use(MyPlugin);
 
-Vue.config.productionTip = false
-Vue.prototype.$log = console.log
+Vue.config.productionTip = false;
+Vue.prototype.$log = console.log;
 
 new Vue({
   router,
   store,
   render: (h) => h(App),
-}).$mount('#app')
+}).$mount("#app");
