@@ -4,6 +4,7 @@ module.exports = {
   devServer: {
     port: "8081",
   },
+  runtimeCompiler: true,
   chainWebpack: (config) => {
     config.optimization.delete("splitChunks");
 
